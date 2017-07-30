@@ -99,7 +99,7 @@
 #       "Hello, #{who}!"
 #     end
 #
-require "hello"
+require_relative "hello"
 
 describe "the hello function" do
   it "says hello" do
